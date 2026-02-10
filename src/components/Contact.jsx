@@ -34,9 +34,9 @@ export default function Contact() {
           <div className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
             <div className="space-y-3">
-              <p>Email: <a className="text-blue-600 dark:text-blue-400" href="mailto:caballerojosephirah@gmail.com">caballerojosephirah@gmail.com</a></p>
-              <p>Phone: <a className="text-blue-600 dark:text-blue-400" href="tel:+639279285588">+63 927 928 5588</a></p>
-              <p>Location: Angono, Rizal, Philippines</p>
+              <p>Email: <a className="text-blue-600 dark:text-blue-400" href="mailto:vienacosta5@gmail.com">vienacosta5@gmail.com</a></p>
+              <p>Phone: <a className="text-blue-600 dark:text-blue-400" href="tel:+639774716961">+63 977 471 6961</a></p>
+              <p>Location: Antipolo, Rizal, Philippines</p>
             </div>
           </div>
           <div className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">

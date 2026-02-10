@@ -51,17 +51,29 @@ export default function App() {
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">Mikavien Acosta</h1>
-              <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">Frontend Developer • WordPress Developer</p>
+              <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">Junior Frontend Developer • WordPress Developer</p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a href="mailto:caballerojosephirah@gmail.com" className="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 hover:shadow-soft">vienacosta5@gmail.com</a>
                 <span className="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700">+63 977 471 6961</span>
-                <span className="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700">Antipolo, Rizal, PH</span>
+                {/* <span className="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700">Antipolo, Rizal, PH</span> */}
               </div>
             </div>
             <div className="justify-self-end">
               <div className="w-full h-48 md:h-64 rounded-3xl bg-gradient-to-br from-blue-600 to-indigo-600 opacity-90"></div>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Summary */}
+      <section id="summary" className="py-16 bg-gray-50 dark:bg-gray-900/40">
+        <div className="container">
+          <motion.h2 variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-2xl md:text-3xl font-bold mb-6">Summary</motion.h2>
+          <motion.p variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-gray-700 dark:text-gray-300">
+            Junior Frontend Developer with hands-on experience building and optimizing user-facing web interfaces using
+            HTML, CSS, JavaScript, and WordPress. Experienced in responsive design, UI/UX consistency, frontend testing, and
+            cross-functional collaboration. Currently enhancing frontend engineering skills through the Meta Frontend
+            Developer (React) program.</motion.p>
         </div>
       </section>
 
@@ -76,16 +88,15 @@ export default function App() {
                 <span className="text-sm text-gray-500">March 2025 – Present</span>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Supported the design and development of a large-scale candidate database and the overall website.</li>
-                <li>Coordinated with international recruiters and management to update job categories, filter
-                  logic, and SEO content.</li>
-                <li>Managed and optimized candidate profile structure using ACF (Advanced Custom Fields)
-                  and taxonomy filters</li>
-                <li>Contributed to project planning and testing for a live filtering feature based on location,
-                  department, and role type.</li>
-                <li>Maintained and enhanced UI/UX consistency across over 6,000+ candidate profiles.</li>
-                <li>Acted as both developer and coordinator to ensure project milestones and updates were
-                  deployed efficiently.</li>
+                <li>Contributed to the development of a large-scale candidate database and job portal
+with 6,000+ profiles, focusing on frontend structure and usability.</li>
+                <li>Implemented and maintained dynamic filtering logic (location, department, role
+type) to improve search accuracy and user experience.</li>
+                <li>Structured and optimized frontend data presentation using ACF and
+taxonomy-based filters.</li>
+                <li>Ensured UI consistency and responsiveness across thousands of dynamically
+generated profile pages.</li>
+                
               </ul>
             </motion.div>
 
@@ -95,12 +106,12 @@ export default function App() {
                 <span className="text-sm text-gray-500">July 2024 – December 2025</span>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Performed manual testing on web and mobile applications to identify bugs, usability issues, and inconsistencies.</li>
-                <li>Created and executed detailed test cases, test plans, and reports based on project requirements.</li>
-                <li>Collaborated with developers and designers to reproduce issues and verify bug fixes.</li>
-                <li>Conducted cross-browser and cross-device testing to ensure responsive and consistent user experience.</li>
-                <li>Documented defects using Github and provided clear feedback for resolution.</li>
-                <li>Ensured product quality and functionality aligned with client expectations before deployment.</li>
+                <li>Performed manual testing on web and mobile applications to identify UI, usability,
+and functional issues.</li>
+                <li>Created and executed detailed test cases based on frontend and business
+requirements.</li>
+                <li>Conducted cross-browser and cross-device testing to ensure responsive layouts and
+consistent behavior.</li>
               </ul>
             </motion.div>
 
@@ -110,14 +121,27 @@ export default function App() {
                 <span className="text-sm text-gray-500">October 2024 – Apr 2025</span>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Design and develop custom WordPress websites from scratch using themes, plugins, and
-                  custom code for optimal performance.</li>
-                <li>Design user-friendly layouts that enhance brand identity and improve overall website
-                  experience.</li>
-                <li>Manage all SEO aspects, including website structure and content optimization, to
-                  increase organic traffic.</li>
-                <li>Conduct cross-browser and device testing to ensure consistent performance and
-                  accessibility.</li>
+                <li>Built and customized responsive websites using HTML, CSS, JavaScript, and
+WordPress.</li>
+                <li>Implemented UI/UX improvements focused on intuitive navigation and conversion
+optimization.</li>
+                <li>Optimized frontend performance and structure to support SEO and accessibility best
+practices.</li>
+                <li>Translated design concepts into functional, mobile-friendly layouts.</li>
+              </ul>
+            </motion.div>
+
+            <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="text-lg font-semibold">WordPress Developer - Seven365 Company</h3>
+                <span className="text-sm text-gray-500">March 2024 – July 2024</span>
+              </div>
+              <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
+                <li>Developed responsive web pages based on Figma designs, ensuring accurate
+frontend implementation.</li>
+                <li>Collaborated with SEO and content teams to align layout structure with search and
+usability goals.</li>
+                <li>Tested frontend features across browsers and devices to ensure consistent behavior.</li>
               </ul>
             </motion.div>
 
@@ -131,19 +155,6 @@ export default function App() {
                   Nutri-Foods Corporation.</li>
                 <li>Maintain and update the website regularly to reflect new products, news, and other
                   relevant content.</li>
-              </ul>
-            </motion.div>
-
-            <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
-              <div className="flex items-center justify-between flex-wrap gap-2">
-                <h3 className="text-lg font-semibold">WordPress Developer - Seven365 Company</h3>
-                <span className="text-sm text-gray-500">March 2024 – July 2024</span>
-              </div>
-              <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Designed and developed responsive websites using Figma and WordPress.</li>
-                <li>Created visually appealing layouts, graphics, and templates that enhance user
-                  experience while maintaining brand consistency.</li>
-                <li>Developed and conceptualized a comprehensive UI/UX design strategy for the brand.</li>
               </ul>
             </motion.div>
 
@@ -183,27 +194,13 @@ export default function App() {
           <motion.h2 variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-2xl md:text-3xl font-bold mb-6">Skills</motion.h2>
           <div className="grid md:grid-cols-2 gap-6">
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
-              <h3 className="font-semibold mb-3">Progarmming Skills</h3>
+              <h3 className="font-semibold mb-3">Technical Skills</h3>
               <ul className="list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>WordPress</li>
-                <li>ACF (Advanced Custom Fields)</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Bootstrap and Tailwind CSS</li>
-                <li>React JS</li>
-                <li>Git</li>
-                <li>Figma</li>
-              </ul>
-            </motion.div>
-            <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
-              <h3 className="font-semibold mb-3">Project Management Skills</h3>
-              <ul className="list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Project coordination and task management</li>
-                <li>Documentation and report preparation</li>
-                <li>Client and team communication</li>
-                <li>Task tracking using Trello, Asana, or ClickUp</li>
-                <li>Cross-functional collaboration and follow-ups</li>
-                <li>Time management and prioritization</li>
-                <li>Meeting scheduling and progress tracking</li>
+                <li>Frontend: HTML5, CSS3, Bootstrap, JavaScript, React (learning)</li>
+                <li>Tools: Git, GitHub, Figma</li>
+                <li>CMS & Backend Exposure: WordPress, PHP, Advanced Custom Fields (ACF)</li>
+                <li>Testing & QA: Manual testing, cross-browser testing, bug documentation</li>
+                <li>Other: Responsive design, UI/UX principles, basic SEO</li>
               </ul>
             </motion.div>
           </div>
