@@ -82,36 +82,51 @@ export default function App() {
         <div className="container">
           <motion.h2 variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-2xl md:text-3xl font-bold mb-6">Experience</motion.h2>
           <div className="space-y-6">
+
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
               <div className="flex items-center justify-between flex-wrap gap-2">
-                <h3 className="text-lg font-semibold">Marketing Associate</h3>
-                <span className="text-sm text-gray-500">March 2025 – Present</span>
+                <h3 className="text-lg font-semibold">Frontend Developer - PenOne Digital Corporation</h3>
+                <span className="text-sm text-gray-500">February 2026 – Present</span>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Contributed to the development of a large-scale candidate database and job portal
-with 6,000+ profiles, focusing on frontend structure and usability.</li>
-                <li>Implemented and maintained dynamic filtering logic (location, department, role
-type) to improve search accuracy and user experience.</li>
-                <li>Structured and optimized frontend data presentation using ACF and
-taxonomy-based filters.</li>
-                <li>Ensured UI consistency and responsiveness across thousands of dynamically
-generated profile pages.</li>
-                
+                <li>Designed and developed responsive, user-friendly web interfaces using HTML5, CSS3, Bootstrap, and Tailwind.</li>
+                <li>Created UI/UX designs in Figma, focusing on usability, visual hierarchy, and intuitive user flows.</li>
+                <li>Translated Figma designs into pixel-perfect, high-quality frontend code with strong attention to detail.</li>
+                <li>Implemented interactive features and dynamic UI components using JavaScript and React (currently learning).</li>
+                <li>Ensured cross-browser compatibility and optimized layouts across various devices and screen sizes.</li>
               </ul>
             </motion.div>
 
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
               <div className="flex items-center justify-between flex-wrap gap-2">
                 <h3 className="text-lg font-semibold">Quality Assurance Analyst - Seven365 Company</h3>
-                <span className="text-sm text-gray-500">July 2024 – December 2025</span>
+                <span className="text-sm text-gray-500">July 2024 – March 2026</span>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
                 <li>Performed manual testing on web and mobile applications to identify UI, usability,
-and functional issues.</li>
+                  and functional issues.</li>
                 <li>Created and executed detailed test cases based on frontend and business
-requirements.</li>
+                  requirements.</li>
                 <li>Conducted cross-browser and cross-device testing to ensure responsive layouts and
-consistent behavior.</li>
+                  consistent behavior.</li>
+              </ul>
+            </motion.div>
+
+            <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="text-lg font-semibold">Marketing Associate</h3>
+                <span className="text-sm text-gray-500">March 2025 – February 2026</span>
+              </div>
+              <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
+                <li>Contributed to the development of a large-scale candidate database and job portal
+                  with 6,000+ profiles, focusing on frontend structure and usability.</li>
+                <li>Implemented and maintained dynamic filtering logic (location, department, role
+                  type) to improve search accuracy and user experience.</li>
+                <li>Structured and optimized frontend data presentation using ACF and
+                  taxonomy-based filters.</li>
+                <li>Ensured UI consistency and responsiveness across thousands of dynamically
+                  generated profile pages.</li>
+
               </ul>
             </motion.div>
 
@@ -122,11 +137,11 @@ consistent behavior.</li>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
                 <li>Built and customized responsive websites using HTML, CSS, JavaScript, and
-WordPress.</li>
+                  WordPress.</li>
                 <li>Implemented UI/UX improvements focused on intuitive navigation and conversion
-optimization.</li>
+                  optimization.</li>
                 <li>Optimized frontend performance and structure to support SEO and accessibility best
-practices.</li>
+                  practices.</li>
                 <li>Translated design concepts into functional, mobile-friendly layouts.</li>
               </ul>
             </motion.div>
@@ -138,9 +153,9 @@ practices.</li>
               </div>
               <ul className="mt-3 list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
                 <li>Developed responsive web pages based on Figma designs, ensuring accurate
-frontend implementation.</li>
+                  frontend implementation.</li>
                 <li>Collaborated with SEO and content teams to align layout structure with search and
-usability goals.</li>
+                  usability goals.</li>
                 <li>Tested frontend features across browsers and devices to ensure consistent behavior.</li>
               </ul>
             </motion.div>
@@ -196,11 +211,12 @@ usability goals.</li>
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800">
               <h3 className="font-semibold mb-3">Technical Skills</h3>
               <ul className="list-disc ml-5 space-y-1 text-gray-700 dark:text-gray-300">
-                <li>Frontend: HTML5, CSS3, Bootstrap, JavaScript, React (learning)</li>
+                <li>Frontend: HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React (learning)</li>
+                <li>UI/UX & Design: Figma, responsive design, cross-browser compatibility, pixel-perfect implementation, Figma to code</li>
                 <li>Tools: Git, GitHub, Figma</li>
                 <li>CMS & Backend Exposure: WordPress, PHP, Advanced Custom Fields (ACF)</li>
                 <li>Testing & QA: Manual testing, cross-browser testing, bug documentation</li>
-                <li>Other: Responsive design, UI/UX principles, basic SEO</li>
+                <li>Other: UI/UX principles, basic SEO</li>
               </ul>
             </motion.div>
           </div>
