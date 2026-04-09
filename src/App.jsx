@@ -241,14 +241,11 @@ export default function App() {
           <motion.h2 variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-2xl md:text-3xl font-bold mb-6">Projects</motion.h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { name: 'Facilicom', url: 'https://facilicom.vixencreative.agency/', image: facilicom },
+              { name: 'Facilicom', url: 'https://facilicomllc.com/', image: facilicom },
               { name: 'Critter Sitter', url: 'https://crittersitter.vixencreative.agency/', image: critter },
               { name: 'SVA Recruitment', url: 'https://svarecruitment.com/', image: sva },
               { name: 'Ramcos Nulud', url: 'https://ramcosnulud.com/', image: ramcos },
-              { name: 'Trakr Landing Page', url: 'https://ready2goservices.app/', image: trakr },
-              { name: 'Ready2Go Services', url: 'https://ready2goservices.com.au/', image: ready2go },
               { name: 'PNFC', url: 'https://www.nutrifoods.com.ph/', image: pnfc },
-              { name: 'SoftCode365', url: 'https://www.softcode365.com/', image: softcode },
               { name: 'International Graduate School of Ministry', url: 'https://igsm-ph.org/', image: igsm },
             ].map((p) => (
               <motion.a
